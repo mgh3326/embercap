@@ -1,13 +1,13 @@
 import Foundation
 import IOKit
 
-struct ProbeKeyResult: Sendable, Equatable {
+struct ProbeKeyResult: Sendable, Equatable, Codable {
     let key: String
     let infoKr: kern_return_t
     let readKr: kern_return_t?
 }
 
-enum ProbeVerdict: String, Sendable, Equatable {
+enum ProbeVerdict: String, Sendable, Equatable, Codable {
     case legacyAbiUnavailable = "legacy-abi-unavailable"
     case blockedByPolicy      = "blocked-by-policy"
     case partialSuccess       = "partial-success"
@@ -33,7 +33,7 @@ func classifyProbe(_ results: [ProbeKeyResult]) -> ProbeVerdict {
     return .inconclusive
 }
 
-struct ProbeReport: Sendable, Equatable {
+struct ProbeReport: Sendable, Equatable, Codable {
     let matchedService: Bool
     let openKr: kern_return_t?
     let openSessionKr: kern_return_t?
