@@ -137,11 +137,21 @@ with `mach_error_string`.
    following keys, with the canonical 76-byte `SMCKeyData_t`:
    - `TB0T`, `BNum`, `BSIn` (sanity keys)
    - `BCLM`, `CH0B`, `CH0C`, `CHWA`, `CHBI`, `CHLC` (legacy charge-control keys)
-5. Summarize verdict:
-   - if all step-4 calls fail with `kIOReturnBadArgument`, classify as
-     **"legacy SMC ABI unavailable — consistent with bclm broken on macOS ≥ 15"**
-   - if some step-4 calls succeed, report raw data and flag as unexpected
-     (prompt for research-branch follow-up)
+5. Summarize verdict. The classifier considers the per-key return codes from
+   step 4 and picks exactly one of:
+   - `legacy-abi-unavailable` — every step-4 call failed with
+     `kIOReturnBadArgument`. This is the expected verdict on this machine
+     today and is consistent with bclm broken on macOS ≥ 15.
+   - `blocked-by-policy` — every step-4 call failed and at least one error is
+     `kIOReturnNotPrivileged` / `kIOReturnNotPermitted`. The probe reports
+     the blocking error explicitly; the tool does not attempt to escalate.
+   - `partial-success` — any step-4 call returned `kIOReturnSuccess`. The
+     probe prints raw data for the successful key(s) and flags the result as
+     unexpected on macOS 26, with a pointer to the research-branch carve-out
+     (§4). This case is not expected on the current target machine but must
+     be handled so future OS versions can flip the verdict cleanly.
+   - `inconclusive` — any other combination (e.g. a mix of `BadArgument`
+     and `NotFound` with no successes). Dump raw per-key results verbatim.
 
 Exit code semantics:
 - `0` — probe completed and produced a verdict (even if the verdict is
