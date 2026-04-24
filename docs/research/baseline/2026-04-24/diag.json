@@ -19,7 +19,7 @@
   "machine" : {
     "arch" : "x86_64",
     "cpuBrand" : "Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz",
-    "kernel" : "Darwin <HOSTNAME-REDACTED> 25.4.0 Darwin <HOSTNAME-REDACTED> Version 25.4.0: Thu Mar 19 19:27:54 PDT 2026; root:xnu-12377.101.15~1/RELEASE_X86_64 x86_64",
+    "kernel" : "Darwin <HOSTNAME-REDACTED> 25.4.0 Darwin Kernel Version 25.4.0: Thu Mar 19 19:27:54 PDT 2026; root:xnu-12377.101.15~1/RELEASE_X86_64 x86_64",
     "model" : "MacBookPro16,1",
     "sip" : "enabled",
     "swVers" : {
