@@ -33,6 +33,16 @@ adding write-path code to `main`?
 - **Phase 4** — a single reversible 80% charge-limit test, gated.
 - **Phase 5** — report, in one of two templates (5a success / 5b negative).
 
+"Mutation" in this charter, and specifically the "Phase 4 mutation" wording
+in §5 and §6, means applying a **public or semi-public control surface**
+whose existence, effect, and reset path were confirmed in Phase 2 or Phase
+3 — for example, a documented `pmset` option, a writable IOKit property
+exposed to userland, or a configuration flip performed by a pre-existing
+third-party tool whose behavior on this OS is already documented.
+It does **not** mean and never authorizes an SMC or IOKit *write* call via
+the legacy `AppleSMC` userclient or any equivalent private dispatch. R1
+binds Phase 4 exactly as strictly as every other phase.
+
 ### 1.3 Out-of-scope (invariant)
 
 - SMC/IOKit write attempts from any branch.
@@ -55,7 +65,9 @@ adding write-path code to `main`?
   diag` in the Phase 1 report.
 
 Any future phase must re-verify the environment before executing. A mismatch
-is grounds for aborting that phase under R4.
+is grounds for aborting that phase under the environment re-verification
+gate and the charter safety rules in §3 as a whole. R4 specifically
+governs the `main` write-path guardrail, not environment identity.
 
 ## 3. Invariant safety rules
 
@@ -63,6 +75,10 @@ These rules hold across every phase and every branch.
 
 - **R1** No SMC/IOKit write attempts. No calls to `IOConnectCallStructMethod`
   with `selector=6`, `kSMCWriteKey`, or any selector that mutates SMC state.
+  This rule applies to every phase, including Phase 4. The "Phase 4
+  mutation" wording elsewhere in this charter refers exclusively to
+  public/semi-public control surfaces confirmed in Phase 2 or Phase 3; see
+  the terminology note in §1.2.
 - **R2** No SIP modification. `csrutil` is consulted read-only.
 - **R3** No installation of privileged helpers, daemons, or KEXTs. Existing
   installations may be *observed* (file system, LaunchDaemon listing,
