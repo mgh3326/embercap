@@ -13,7 +13,10 @@
 #   VERIFY_HOSTNAME  — hostname to treat as a secret
 #
 # Emits a summary block on stdout suitable for pasting into the Phase 1
-# report. Exits non-zero on any leak or missing preservation marker.
+# report. The summary only names the *category* of each checked secret
+# (e.g. "battery.serial"), never the secret value itself, so pasting the
+# summary into a committed report does not re-disclose identifiers.
+# Exits non-zero on any leak or missing preservation marker.
 set -uo pipefail
 
 if [ "$#" -ne 6 ]; then
@@ -35,56 +38,66 @@ else
   LIVE_HOST="$(scutil --get LocalHostName 2>/dev/null || hostname -s 2>/dev/null || hostname 2>/dev/null || echo unknown)"
 fi
 
-extract_first() {
-  # extract_first <regex_for_value> <file>
-  # Prints the first captured value of the first match, or nothing.
-  grep -oE "$1" "$2" 2>/dev/null | head -n1 | sed -E "s/$1/\\1/" 2>/dev/null || true
-}
-
-# Collect secrets from raw inputs.
+# Parallel arrays: SECRETS[i] is the value we search for; LABELS[i] is the
+# category name we print in the summary. The value is never echoed.
 SECRETS=()
+LABELS=()
+
+push_secret() {
+  local label="$1" val="$2"
+  [ -z "${val:-}" ] && return
+  LABELS+=("$label")
+  SECRETS+=("$val")
+}
 
 # battery.serial from diag.json: "serial": "..."
 val=$(grep -oE '"serial"[[:space:]]*:[[:space:]]*"[^"]+"' "$RAW_DIAG" | head -n1 | sed -E 's/.*"([^"]+)"$/\1/')
-[ -n "${val:-}" ] && SECRETS+=("$val")
+push_secret "battery.serial" "$val"
 
 # Hostname token from diag.json kernel string: "kernel": "Darwin <host> ..."
 val=$(grep -oE '"kernel"[[:space:]]*:[[:space:]]*"Darwin [^[:space:]\\]+' "$RAW_DIAG" | head -n1 | sed -E 's/.*"Darwin ([^[:space:]\\]+).*/\1/')
-[ -n "${val:-}" ] && SECRETS+=("$val")
+push_secret "kernel.hostname" "$val"
 
 # BatterySerialNumber from ioreg: "BatterySerialNumber" = "..."
 val=$(grep -oE '"BatterySerialNumber"[[:space:]]*=[[:space:]]*"[^"]+"' "$RAW_IOREG" | head -n1 | sed -E 's/.*"([^"]+)"$/\1/')
-[ -n "${val:-}" ] && SECRETS+=("$val")
+push_secret "ioreg.BatterySerialNumber" "$val"
+
+# Bare "Serial" (ioreg AppleSmartBattery may expose this as a top-level
+# entry and/or inside the BatteryData blob).
+val=$(grep -oE '"Serial"[[:space:]]*=[[:space:]]*"[^"]+"' "$RAW_IOREG" | head -n1 | sed -E 's/.*"([^"]+)"$/\1/')
+push_secret "ioreg.Serial" "$val"
 
 # IOPlatformUUID from ioreg (if present)
 val=$(grep -oE '"IOPlatformUUID"[[:space:]]*=[[:space:]]*"[^"]+"' "$RAW_IOREG" | head -n1 | sed -E 's/.*"([^"]+)"$/\1/')
-[ -n "${val:-}" ] && SECRETS+=("$val")
+push_secret "ioreg.IOPlatformUUID" "$val"
 
 # IOPlatformSerialNumber from ioreg (if present)
 val=$(grep -oE '"IOPlatformSerialNumber"[[:space:]]*=[[:space:]]*"[^"]+"' "$RAW_IOREG" | head -n1 | sed -E 's/.*"([^"]+)"$/\1/')
-[ -n "${val:-}" ] && SECRETS+=("$val")
+push_secret "ioreg.IOPlatformSerialNumber" "$val"
 
 # Live user + home path.
-SECRETS+=("$LIVE_USER")
-SECRETS+=("/Users/$LIVE_USER")
+push_secret "live.USER" "$LIVE_USER"
+push_secret "live.home-path" "/Users/$LIVE_USER"
 
-# Live hostname (short and long form).
-SECRETS+=("$LIVE_HOST")
+# Live hostname.
+push_secret "live.hostname" "$LIVE_HOST"
 
-# Absence check.
+# Absence check — output *labels only*, never the secret values.
 leak_count=0
 echo "Verify-redaction summary"
 echo "------------------------"
 echo "Redacted dir: $RED_DIR"
 echo "Secrets searched: ${#SECRETS[@]}"
-for secret in "${SECRETS[@]}"; do
+for i in "${!SECRETS[@]}"; do
+  secret="${SECRETS[$i]}"
+  label="${LABELS[$i]}"
   [ -z "$secret" ] && continue
   hits=$(grep -r -c -F "$secret" "$RED_DIR" 2>/dev/null | awk -F: '{sum+=$2} END {print sum+0}')
   if [ "$hits" -gt 0 ]; then
-    echo "LEAK: '$secret' -> $hits match(es)"
+    echo "LEAK: $label -> $hits match(es)"
     leak_count=$((leak_count + hits))
   else
-    echo "ok : '$secret' absent"
+    echo "ok : $label absent"
   fi
 done
 echo "Total leaks: $leak_count"

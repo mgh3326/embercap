@@ -34,8 +34,12 @@ else
   LIVE_HOST="$(scutil --get LocalHostName 2>/dev/null || hostname -s 2>/dev/null || hostname 2>/dev/null || echo unknown)"
 fi
 
-# Kernel-line hostname token: "Darwin <host> ..." -> "Darwin <HOSTNAME-REDACTED> ..."
-KERNEL_HOST_SED='s/(Darwin )([^[:space:]\\"]+)/\1<HOSTNAME-REDACTED>/g'
+# Kernel-line hostname token: match "Darwin <host> X.Y.Z" only. In
+# `uname -a` output the hostname is always followed by a whitespace-
+# separated version triplet, which distinguishes it from later literal
+# tokens such as "Darwin Kernel Version …" that must be preserved per
+# charter §4.2.
+KERNEL_HOST_SED='s/(Darwin )([^[:space:]\\"]+)([[:space:]]+[0-9]+\.[0-9]+\.[0-9]+)/\1<HOSTNAME-REDACTED>\3/g'
 
 # Field-scoped masker: matches  "Key" = "val"  (ioreg)  and  "Key" : "val"  (JSON).
 field_scoped_sed() {
