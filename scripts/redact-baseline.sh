@@ -46,15 +46,17 @@ field_scoped_sed() {
 
 REDACT_SED=""
 for k in BatterySerialNumber "Hardware Serial Number" "Serial Number" \
-         IOPlatformSerialNumber PlatformSerialNumber MACAddress IOMACAddress; do
+         IOPlatformSerialNumber PlatformSerialNumber MACAddress IOMACAddress \
+         Serial; do
   REDACT_SED+="$(field_scoped_sed "$k" "<SERIAL-REDACTED>")"
 done
 REDACT_SED+="$(field_scoped_sed IOPlatformUUID "<UUID-REDACTED>")"
 REDACT_SED+="$(field_scoped_sed UUID "<UUID-REDACTED>")"
 REDACT_SED+="$(field_scoped_sed serial "<SERIAL-REDACTED>")"
 
-# serial: <value>  (human-readable status form, colon-separated, not quoted)
-STATUS_SERIAL_SED='s/(^[[:space:]]*serial:[[:space:]]*)[^[:space:]].*$/\1<SERIAL-REDACTED>/'
+# serial <value>  — human-readable status form. Accepts both colon
+# (`serial: V`) and column-aligned (`serial    V`) separators.
+STATUS_SERIAL_SED='s/(^[[:space:]]*serial[[:space:]:]+)[^[:space:]].*$/\1<SERIAL-REDACTED>/'
 
 # Home path and username (both forms: in paths, and as standalone words).
 USER_SED="s|/Users/${LIVE_USER}|/Users/<USER-REDACTED>|g;"
