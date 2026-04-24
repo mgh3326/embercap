@@ -6,3 +6,9 @@ DerivedData/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+
+# IDE
+.vscode/
+
+# Claude Code local permissions (user-specific)
+.claude/settings.local.json
