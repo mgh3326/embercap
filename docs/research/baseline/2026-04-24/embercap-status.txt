@@ -1,0 +1,15 @@
+== battery status ==
+  present                true
+  power source state     AC Power
+  charging               true
+  fully charged          false
+  external connected     true
+  current %              90%
+  design mAh             8790
+  max mAh                7508
+  current mAh            6412
+  cycle count            161
+  temperature            30.9 °C
+  time to full (min)     63
+  not charging reason    0
+  serial                 <SERIAL-REDACTED>

@@ -1,0 +1,21 @@
+== embercap SMC probe (read-only) ==
+
+[1] match AppleSMC:          ok
+[2] IOServiceOpen:           (os/kern) successful (0x00000000)
+[3] openSession (sel 0):     (os/kern) successful (0x00000000)
+
+[4] legacy selector-2 key access (no writes):
+    key    info                                 read
+    TB0T   (iokit/common) invalid argument (0xe (skipped)
+    BNum   (iokit/common) invalid argument (0xe (skipped)
+    BSIn   (iokit/common) invalid argument (0xe (skipped)
+    BCLM   (iokit/common) invalid argument (0xe (skipped)
+    CH0B   (iokit/common) invalid argument (0xe (skipped)
+    CH0C   (iokit/common) invalid argument (0xe (skipped)
+    CHWA   (iokit/common) invalid argument (0xe (skipped)
+    CHBI   (iokit/common) invalid argument (0xe (skipped)
+    CHLC   (iokit/common) invalid argument (0xe (skipped)
+
+verdict: legacy-abi-unavailable
+  Legacy bclm/SMCKit ABI is rejected at the driver on this OS.
+  Consistent with bclm broken on macOS >= 15 (see spec §2).
