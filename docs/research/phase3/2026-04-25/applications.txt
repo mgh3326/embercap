@@ -1,0 +1,13 @@
+total 0
+drwxrwxr-x  12 root     admin  384  4월 24 21:42 .
+drwxr-xr-x  22 root     wheel  704  4월  6 17:10 ..
+-rw-r--r--   1 root     wheel    0  4월  6 17:10 .localized
+drwxr-xr-x   3 root     wheel   96  4월 21 14:34 AlDente.app
+drwxr-xr-x@  3 <USER-REDACTED>  staff   96  4월 20 17:18 Discord.app
+drwxr-xr-x@  3 <USER-REDACTED>  admin   96  4월 22 07:44 Google Chrome.app
+drwxr-xr-x@  3 <USER-REDACTED>  staff   96  4월 20 16:01 iTerm.app
+lrwxr-xr-x@  1 root     wheel   54  4월  6 17:10 Safari.app -> ../System/Cryptexes/App/System/Applications/Safari.app
+drwxr-xr-x@  3 root     wheel   96  4월 21 14:49 Tailscale.app
+drwxr-xr-x@  3 <USER-REDACTED>  admin   96  5월  1  2025 Telegram.app
+drwxr-xr-x   3 root     wheel   96  4월  6 17:10 Utilities
+drwxr-xr-x@  3 <USER-REDACTED>  admin   96  4월 22 08:38 Visual Studio Code.app

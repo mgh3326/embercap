@@ -1,0 +1,4 @@
+/Users/<USER-REDACTED>/swift-projects/embercap/docs/research/charge-limit-experiment-2026-04-24.md
+/Users/<USER-REDACTED>/swift-projects/embercap/docs/superpowers/specs/2026-04-24-embercap-charge-limit-research-charter-design.md
+/Users/<USER-REDACTED>/swift-projects/embercap/docs/superpowers/plans/2026-04-24-embercap-charge-limit-research-plan.md
+/Users/<USER-REDACTED>/shared/prompts/2026-04-24-embercap-real-charge-limit-test.md

@@ -1,0 +1,14 @@
+Executable=/Applications/AlDente.app/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper
+Identifier=com.apphousekitchen.aldente-pro.helper
+Format=Mach-O universal (x86_64 arm64)
+CodeDirectory v=20500 size=1362 flags=0x10000(runtime) hashes=31+7 location=embedded
+Signature size=9060
+Authority=Developer ID Application: AppHouseKitchen GmbH (3WVC84GB99)
+Authority=Developer ID Certification Authority
+Authority=Apple Root CA
+Timestamp=Dec 29, 2025 at 10:49:21 PM
+Info.plist entries=5
+TeamIdentifier=3WVC84GB99
+Runtime Version=26.2.0
+Sealed Resources=none
+Internal requirements count=1 size=232

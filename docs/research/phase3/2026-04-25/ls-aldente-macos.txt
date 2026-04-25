@@ -1,0 +1,4 @@
+total 22544
+drwxr-xr-x   3 root  wheel        96 12월 29 22:49 .
+drwxr-xr-x  10 root  wheel       320 12월 29 22:50 ..
+-rwxr-xr-x   1 root  wheel  11542496 12월 29 22:49 AlDente

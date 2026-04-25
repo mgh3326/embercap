@@ -1,0 +1,1 @@
+ls: /Library/PrivilegedHelperTools/: No such file or directory

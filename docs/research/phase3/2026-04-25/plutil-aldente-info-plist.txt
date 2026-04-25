@@ -1,0 +1,91 @@
+{
+  "BuildMachineOSBuild" => "25D5087f"
+  "CFBundleDevelopmentRegion" => "en"
+  "CFBundleDisplayName" => "AlDente"
+  "CFBundleExecutable" => "AlDente"
+  "CFBundleIconFile" => "AppIcon"
+  "CFBundleIconFiles" => [
+    0 => ""
+  ]
+  "CFBundleIconName" => "AppIcon"
+  "CFBundleIdentifier" => "com.apphousekitchen.aldente-pro"
+  "CFBundleInfoDictionaryVersion" => "6.0"
+  "CFBundleName" => "AlDente"
+  "CFBundlePackageType" => "APPL"
+  "CFBundleShortVersionString" => "1.36.3"
+  "CFBundleSupportedPlatforms" => [
+    0 => "MacOSX"
+  ]
+  "CFBundleURLTypes" => [
+    0 => {
+      "CFBundleTypeRole" => "Viewer"
+      "CFBundleURLName" => "com.apphousekitchen.aldente-pro"
+      "CFBundleURLSchemes" => [
+        0 => "aldente"
+      ]
+    }
+  ]
+  "CFBundleVersion" => "90"
+  "DTCompiler" => "com.apple.compilers.llvm.clang.1_0"
+  "DTPlatformBuild" => "25C5048a"
+  "DTPlatformName" => "macosx"
+  "DTPlatformVersion" => "26.2"
+  "DTSDKBuild" => "25C5048a"
+  "DTSDKName" => "macosx26.2"
+  "DTXcode" => "2620"
+  "DTXcodeBuild" => "17C5038g"
+  "INIntentsSupported" => [
+    0 => "StartChargingIntent"
+    1 => "StopChargingIntent"
+    2 => "SetPercentageIntent"
+    3 => "DischargeIntent"
+    4 => "GetStateIntent"
+    5 => "GetPercentageIntent"
+    6 => "GetTemperatureIntent"
+    7 => "CalibrateIntent"
+    8 => "GetChargeLimitIntent"
+    9 => "SetMagsafeLEDIntent"
+    10 => "EnableLowPowerModeIntent"
+    11 => "DisableLowPowerModeIntent"
+    12 => "EnableHighPowerModeIntent"
+    13 => "DisableHighPowerModeIntent"
+  ]
+  "LSApplicationCategoryType" => "public.app-category.utilities"
+  "LSMinimumSystemVersion" => "11.0"
+  "LSUIElement" => true
+  "NSMainStoryboardFile" => "Main"
+  "NSPrincipalClass" => "NSApplication"
+  "NSSupportsAutomaticTermination" => false
+  "NSSupportsSuddenTermination" => false
+  "NSUpdateSecurityPolicy" => {
+    "AllowProcesses" => {
+      "MEHY5QF425" => [
+        0 => "com.setapp.DesktopClient.SetappAgent"
+      ]
+    }
+  }
+  "NSUserActivityTypes" => [
+    0 => "CalibrateIntent"
+    1 => "DisableHighPowerModeIntent"
+    2 => "DisableLowPowerModeIntent"
+    3 => "DischargeIntent"
+    4 => "EnableHighPowerModeIntent"
+    5 => "EnableLowPowerModeIntent"
+    6 => "GetChargeLimitIntent"
+    7 => "GetPercentageIntent"
+    8 => "GetStateIntent"
+    9 => "GetTemperatureIntent"
+    10 => "SetMagsafeLEDIntent"
+    11 => "SetPercentageIntent"
+    12 => "SetPowerModeIntent"
+    13 => "StartChargingIntent"
+    14 => "StartChargingIntentIntent"
+    15 => "StopChargingIntent"
+  ]
+  "SMPrivilegedExecutables" => {
+    "com.apphousekitchen.aldente-pro.helper" => "anchor apple generic and identifier "com.apphousekitchen.aldente-pro.helper" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "3WVC84GB99")"
+  }
+  "SUEnableAutomaticChecks" => true
+  "SUFeedURL" => "https://apphousekitchen.com/aldente/aldenteproappcast.xml"
+  "SUPublicEDKey" => "QXLHUNZcvghym92nG0zfv/ibtTwLOLD7SurlZOJ/TPU="
+}

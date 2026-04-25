@@ -1,0 +1,11 @@
+total 32
+drwxr-xr-x   3 root  wheel    96 12월 29 22:48 _CodeSignature
+drwxr-xr-x  10 root  wheel   320 12월 29 22:50 .
+drwxr-xr-x   3 root  wheel    96  4월 21 14:34 ..
+-rw-r--r--   1 root  wheel  2200 12월 29 22:50 CodeResources
+drwxr-xr-x   7 root  wheel   224 12월 29 22:49 Frameworks
+-rw-r--r--   1 root  wheel  4352 12월 29 22:48 Info.plist
+drwxr-xr-x   4 root  wheel   128 12월 29 22:48 Library
+drwxr-xr-x   3 root  wheel    96 12월 29 22:49 MacOS
+-rw-r--r--   1 root  wheel     8 12월 29 22:48 PkgInfo
+drwxr-xr-x  31 root  wheel   992 12월 29 22:48 Resources

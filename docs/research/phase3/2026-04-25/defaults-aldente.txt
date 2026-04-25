@@ -1,0 +1,2 @@
+2026-04-25 15:21:24.582 defaults[40355:5312223] 
+Domain com.apphousekitchen.aldente-pro does not exist

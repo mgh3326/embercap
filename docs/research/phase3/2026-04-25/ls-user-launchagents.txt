@@ -1,0 +1,20 @@
+total 136
+drwxr-xr-x@ 19 <USER-REDACTED>  staff   608  4월 25 07:14 .
+drwx------@ 90 <USER-REDACTED>  staff  2880  4월 25 01:47 ..
+-rw-r--r--@  1 <USER-REDACTED>  staff  1837  4월 21 13:50 ai.hermes.gateway.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1091  4월 23 20:53 com.cloudflared.tunnel.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   874  4월 25 01:47 com.google.GoogleUpdater.wake.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   181  4월 25 01:47 com.google.keystone.agent.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   181  4월 25 01:47 com.google.keystone.xpcservice.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1415  4월 23 15:55 com.paperclip.pg-backup-stale-check.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   808  4월 23 15:43 com.paperclip.pg-backup.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1143  4월 22 21:57 com.paperclip.server.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1323  4월 25 07:14 com.robinco.auto-trader.api.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1323  4월 25 07:14 com.robinco.auto-trader.mcp.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   738  4월 24 10:30 com.robinco.prefect.server.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   738  4월 24 10:30 com.robinco.prefect.worker.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   762  4월 24 18:33 com.robinco.server-mode.caffeinate.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   962  4월 24 18:12 homebrew.mxcl.openhab.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff  1015  4월 22 21:47 homebrew.mxcl.postgresql@17.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   865  4월 21 17:11 homebrew.mxcl.redis.plist
+-rw-r--r--@  1 <USER-REDACTED>  staff   835  4월 23 13:04 homebrew.mxcl.syncthing.plist

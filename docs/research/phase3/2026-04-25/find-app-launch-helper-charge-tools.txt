@@ -1,0 +1,5 @@
+bfs: error: /Library/PrivilegedHelperTools: No such file or directory.
+/Applications/AlDente.app
+/Library/LaunchDaemons/com.apphousekitchen.aldente-pro.helper.plist
+/Applications/AlDente.app/Contents/MacOS/AlDente
+/Applications/AlDente.app/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper

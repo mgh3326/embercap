@@ -6,8 +6,9 @@ Companion to:
 - Plan:    [../superpowers/plans/2026-04-24-embercap-charge-limit-research-plan.md](../superpowers/plans/2026-04-24-embercap-charge-limit-research-plan.md)
 
 Redacted artifacts for this report live under
-[baseline/2026-04-24/](./baseline/2026-04-24/) (Phase 1) and
-[phase2/2026-04-25/](./phase2/2026-04-25/) (Phase 2). Raw inputs
+[baseline/2026-04-24/](./baseline/2026-04-24/) (Phase 1),
+[phase2/2026-04-25/](./phase2/2026-04-25/) (Phase 2), and
+[phase3/2026-04-25/](./phase3/2026-04-25/) (Phase 3). Raw inputs
 remained under `/tmp` and were not committed (charter R6).
 
 ---
@@ -479,11 +480,138 @@ remains anywhere in the redacted directory. Preservation markers
 
 ## Phase 3 — existing-tool evidence
 
-> Not executed in this session. See plan "Phase 3 roadmap (next session)" below.
+- Executed on: 2026-04-25 (Asia/Seoul session inside tmux `embercap-phase3`)
+- Branch: `main` (no research branch created; charter R7)
+- Guardrail pre-check: `bash scripts/check-no-write-path.sh` → `ok: no write-path references in Sources/`
+- `swift test` (Phase 3 entry): 22 tests passing, 0 failing
+- Phase 1 / Phase 2 redactor scripts unchanged; Phase 3 is handled by a new
+  sibling script `scripts/redact-phase3.sh` to keep prior phase behavior
+  untouched (charter §4.5).
+- Mode: observation only. No `sudo`, no `launchctl load|start|bootstrap|kickstart|enable|submit`,
+  no execution of any discovered binary, no SMC / IOKit write attempts.
+- Charter gate referenced: G2→3 (Phase 3 collects existing-tool evidence even
+  when Phase 2 returned 0 candidates).
+
+### Phase 3 commands run (in order)
+
+1. `mdfind "kMDItemFSName == '*AlDente*'" > /tmp/embercap-phase3/mdfind-aldente.txt`
+2. `mdfind "kMDItemFSName == '*bclm*'"   > /tmp/embercap-phase3/mdfind-bclm.txt`
+3. `mdfind "kMDItemFSName == '*charge*'" > /tmp/embercap-phase3/mdfind-charge.txt`
+4. `command -v bclm   > /tmp/embercap-phase3/which-bclm.txt`     (exit 1)
+5. `command -v aldente > /tmp/embercap-phase3/which-aldente.txt` (exit 1)
+6. `ls -la /Applications/             > /tmp/embercap-phase3/applications.txt`
+7. `ls -la /Library/LaunchDaemons/    > /tmp/embercap-phase3/launchdaemons.txt`
+8. `ls -la /Library/LaunchAgents/     > /tmp/embercap-phase3/launchagents.txt`
+9. `ls -la /Library/PrivilegedHelperTools/ > /tmp/embercap-phase3/privileged-helpers.txt` (no such directory)
+10. `launchctl list                    > /tmp/embercap-phase3/launchctl-list.txt`
+11. `find /Applications /Library/LaunchDaemons /Library/LaunchAgents /Library/PrivilegedHelperTools \( -iname '*aldente*' -o -iname '*bclm*' -o -iname '*charge*' \) > /tmp/embercap-phase3/find-app-launch-helper-charge-tools.txt`
+12. `grep -i 'aldente|apphousekitchen|bclm|charge|battery' /tmp/embercap-phase3/launchctl-list.txt > /tmp/embercap-phase3/launchctl-aldente-grep.txt`
+13. `plutil -p /Library/LaunchDaemons/com.apphousekitchen.aldente-pro.helper.plist`
+14. `ls -la /Applications/AlDente.app/Contents{,/Library/LaunchServices,/MacOS}/`
+15. `otool -L /Applications/AlDente.app/Contents/MacOS/AlDente`
+16. `otool -L /Applications/AlDente.app/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper`
+17. `codesign -dvv /Applications/AlDente.app`
+18. `codesign -dvv /Applications/AlDente.app/Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper`
+19. `plutil -p /Applications/AlDente.app/Contents/Info.plist`
+20. `defaults read com.apphousekitchen.aldente-pro` (exit 1: domain absent)
+21. `ls ~/Library/{LaunchAgents,Preferences,Application Support,Logs}` filtered by `aldente|apphousekitchen|bclm|charge` (all empty besides the LaunchAgents listing, which has no charge-tool entries)
+22. `bash scripts/redact-phase3.sh /tmp/embercap-phase3 docs/research/phase3/2026-04-25`
+23. Inline verification (no leak of `$USER`, `/Users/$USER`, `LocalHostName`, or UUID-shaped tokens; preservation markers present)
+24. `bash scripts/check-no-write-path.sh` (post-Phase-3 re-run)
+
+### Phase 3 raw paths (out of repo, not committed)
+
+`/tmp/embercap-phase3/` (charter R6):
+
+- `mdfind-aldente.txt`, `mdfind-bclm.txt`, `mdfind-charge.txt`
+- `which-aldente.txt`, `which-bclm.txt`
+- `applications.txt`, `launchdaemons.txt`, `launchagents.txt`, `privileged-helpers.txt`
+- `launchctl-list.txt`, `launchctl-aldente-grep.txt`
+- `find-app-launch-helper-charge-tools.txt`
+- `ls-aldente-{contents,launchservices,macos}.txt`
+- `plutil-aldente-{info-plist,launchdaemon-plist}.txt`
+- `codesign-aldente-{app,bundled-helper}.txt`
+- `otool-aldente-{main,bundled-helper}.txt`
+- `defaults-aldente.txt`
+- `ls-user-launchagents.txt`, `ls-user-{prefs,app-support,logs}-charge-grep.txt`
+- `grep-summary.txt` (cross-reference scratch only; not committed)
+
+### Phase 3 redacted artifacts (committed)
+
+[`docs/research/phase3/2026-04-25/`](./phase3/2026-04-25/) — see that
+directory's `README.md` for per-file purpose. The same 26 raw files
+above are present after redaction; raw `grep-summary.txt` is the only
+intentionally omitted artifact.
+
+### Discovered candidates
+
+| Tool / artifact | Evidence source | Evidence | Verdict | Notes |
+|---|---|---|---|---|
+| AlDente (`com.apphousekitchen.aldente-pro`) v1.36.3 build 90 | `mdfind`, `find`, `ls /Applications`, `ls /Library/LaunchDaemons`, `codesign`, `plutil`, `launchctl list`, `defaults read` | App bundle present at `/Applications/AlDente.app` (root:wheel, mtime 2026-04-21 14:34); bundled helper at `Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper`; signed `Developer ID Application: AppHouseKitchen GmbH (3WVC84GB99)`, notarized; launch daemon plist at `/Library/LaunchDaemons/com.apphousekitchen.aldente-pro.helper.plist` whose `Program` is `/Library/PrivilegedHelperTools/com.apphousekitchen.aldente-pro.helper` — **but `/Library/PrivilegedHelperTools/` does not exist**; `launchctl list` does **not** contain `com.apphousekitchen.aldente-pro.helper`; `defaults read com.apphousekitchen.aldente-pro` reports "Domain does not exist"; no entries under `~/Library/Preferences|Application Support|Logs|LaunchAgents` matching the AlDente bundle id; `Info.plist` declares charge-control intents (`StartChargingIntent`, `StopChargingIntent`, `SetPercentageIntent`, `DischargeIntent`, `GetChargeLimitIntent`, …) and SMJobBless `SMPrivilegedExecutables` keyed on `com.apphousekitchen.aldente-pro.helper` | **installed-inactive** | App copied into `/Applications` and the LaunchDaemons plist exists, but the privileged helper has never been bootstrapped (target `/Library/PrivilegedHelperTools/...` missing; daemon not loaded; user defaults absent). Consistent with "the user copied AlDente to /Applications but never granted privileged-helper authorisation". |
+| `bclm` | `command -v bclm`, `mdfind '*bclm*'`, `find` | `command -v` exit 1, mdfind 0 results, find 0 results | **missing** | No `bclm` Homebrew install, no script, no plist. |
+| Other `*charge*` named helpers | `mdfind '*charge*'`, `find ... -iname '*charge*'`, `launchctl list` filtered | Only matches were repo research docs (`charge-limit-experiment-2026-04-24.md` etc.); the lone launchctl match was Apple's `com.apple.menuextra.battery.helper` (system menu-bar battery extra, not a charge controller) | **missing** | No third-party charge-control daemons loaded or installed. |
+
+### Why "installed-inactive" for AlDente, not "installed-active"
+
+Three independent signals agree:
+
+1. **Helper binary absent at the daemon's expected path.** The plist
+   `Program` points to `/Library/PrivilegedHelperTools/com.apphousekitchen.aldente-pro.helper`,
+   but `/Library/PrivilegedHelperTools/` does not exist on this Mac. The
+   helper Mach-O lives only inside the app bundle at
+   `Contents/Library/LaunchServices/com.apphousekitchen.aldente-pro.helper`,
+   so `SMJobBless` (or its modern `SMAppService` equivalent) was never
+   completed by an admin click in the AlDente UI.
+2. **Daemon not loaded in `launchctl list`.** `launchctl list` for the
+   user-domain returns 525 entries; none have label
+   `com.apphousekitchen.aldente-pro.helper`. The only match for the
+   `aldente|apphousekitchen|bclm|charge|battery` keyword filter is
+   `com.apple.menuextra.battery.helper`, an Apple-supplied agent.
+3. **No user-domain footprint.** `defaults read com.apphousekitchen.aldente-pro`
+   returns "Domain ... does not exist", and there are no entries under
+   `~/Library/Preferences`, `~/Library/Application Support`, `~/Library/Logs`,
+   or `~/Library/LaunchAgents` matching `aldente|apphousekitchen|bclm|charge`.
+
+This means **AlDente has not exercised any battery-charge mutation on
+this Mac**. Phase 1's observed charge state (battery 100%, AC online,
+ChargingCurrent 0 mA) is therefore not attributable to AlDente; it is
+the OEM "fully charged, charger plugged in" steady state.
+
+### Gate G3→4 status after Phase 3
+
+- **H1 concrete control candidate**: **no**. Phase 2 reported 0 candidates. Phase 3 found AlDente installed-inactive, which is *evidence of a third-party charge-control tool* but not a *control candidate within charter §3*: charter §3 H1 requires a "concrete public/semi-public control surface that we can drive ourselves without privileged-helper install". AlDente's only mechanism is a privileged helper installed via `SMJobBless`; that path is forbidden by Hard Safety Rules R3 + Phase 3 prompt rules 3 / 5. The AlDente discovery confirms the ecosystem expects a privileged helper, which reinforces the Phase 2 finding rather than overturning it.
+- **H2 reversible reset path**: **n/a** (only relevant once H1 is met).
+- **H3 explicit Phase 4 approval**: **no**, not requested in this session.
+- **H4 main guardrail green**: **yes**. `scripts/check-no-write-path.sh` `ok: no write-path references in Sources/`; `swift test` 22/22 passing.
+- **H5 raw-vs-redacted policy**: **yes**. Raw remained under `/tmp/embercap-phase3/`; redacted under `docs/research/phase3/2026-04-25/`; redaction verifier (inline) reports 0 leaks of live USER / home / hostname / UUID-shaped tokens.
+
+**Decision: Phase 4 blocked.** H1 not satisfied.
+
+### A(2∧3-empty) and Phase 5b trigger
+
+Charter §6 defines `A(2∧3-empty)` as "Phase 2 returned 0 concrete
+control candidates *and* Phase 3 found no installed-active charge tool
+operating on this Mac". Both conditions are met:
+
+- Phase 2: 0 concrete public/semi-public control candidates (already
+  documented in the Phase 2 section).
+- Phase 3: 0 `installed-active` results. AlDente is `installed-inactive`
+  (no helper bootstrap, no launchd load, no user defaults, no logs);
+  bclm and other charge helpers are `missing`.
+
+> A(2∧3-empty) is satisfied. Per charter §6, Phase 4 is forbidden and
+> the next step is Phase 5b negative-result documentation.
+
+The AlDente `installed-inactive` finding is *additional* context that
+should be cited verbatim in the Phase 5b write-up: it tells the reader
+that the user is aware of charge-limit tools but has not delegated
+charge control to one, which is itself a useful constraint on the
+"how does this Mac currently manage 100%-plugged-in state" question.
 
 ## Phase 4 — 80% mutation test
 
 > Gated. Not authorized until charter G3→4 H1–H5 are all satisfied.
+> Phase 3 result above keeps H1 unmet → Phase 4 remains blocked.
 > See plan "Phase 4 roadmap (STUB)" below.
 
 ## Phase 5 — report

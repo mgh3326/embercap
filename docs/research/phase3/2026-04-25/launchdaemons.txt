@@ -1,0 +1,4 @@
+total 8
+drwxr-xr-x   3 root  wheel    96  4월 21 14:34 .
+drwxr-xr-x  67 root  wheel  2144  4월 21 14:53 ..
+-rw-r--r--   1 root  wheel   596  4월 21 14:34 com.apphousekitchen.aldente-pro.helper.plist

@@ -1,0 +1,15 @@
+Executable=/Applications/AlDente.app/Contents/MacOS/AlDente
+Identifier=com.apphousekitchen.aldente-pro
+Format=app bundle with Mach-O universal (x86_64 arm64)
+CodeDirectory v=20500 size=46251 flags=0x10000(runtime) hashes=1434+7 location=embedded
+Signature size=9059
+Authority=Developer ID Application: AppHouseKitchen GmbH (3WVC84GB99)
+Authority=Developer ID Certification Authority
+Authority=Apple Root CA
+Timestamp=Dec 29, 2025 at 10:49:23 PM
+Notarization Ticket=stapled
+Info.plist entries=37
+TeamIdentifier=3WVC84GB99
+Runtime Version=26.2.0
+Sealed Resources version=2 rules=13 files=41
+Internal requirements count=1 size=224

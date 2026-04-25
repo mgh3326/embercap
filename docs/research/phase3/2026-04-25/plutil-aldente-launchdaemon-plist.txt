@@ -1,0 +1,10 @@
+{
+  "Label" => "com.apphousekitchen.aldente-pro.helper"
+  "MachServices" => {
+    "com.apphousekitchen.aldente-pro.helper" => true
+  }
+  "Program" => "/Library/PrivilegedHelperTools/com.apphousekitchen.aldente-pro.helper"
+  "ProgramArguments" => [
+    0 => "/Library/PrivilegedHelperTools/com.apphousekitchen.aldente-pro.helper"
+  ]
+}
