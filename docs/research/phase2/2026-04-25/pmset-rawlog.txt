@@ -1,0 +1,584 @@
+pmset is in RAW logging mode now. Hit ctrl-c to exit.
+ * Battery matched at registry = 8707
+04/25/2026 03:19:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:17:24
+04/25/2026 03:19:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -3mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:19:24
+04/25/2026 03:20:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:20:24
+04/25/2026 03:21:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -1mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:21:24
+04/25/2026 03:22:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:22:24
+04/25/2026 03:23:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:23:24
+04/25/2026 03:24:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:24:24
+04/25/2026 03:25:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:25:24
+04/25/2026 03:26:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:26:24
+04/25/2026 03:27:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:18:24; User visible=04/25/2026 03:27:24
+04/25/2026 03:28:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:27:24
+04/25/2026 03:29:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:29:24
+04/25/2026 03:30:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:30:24
+04/25/2026 03:31:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:31:24
+04/25/2026 03:32:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -2mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:32:24
+04/25/2026 03:33:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:33:24
+04/25/2026 03:34:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:34:24
+04/25/2026 03:35:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:35:24
+04/25/2026 03:36:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:36:24
+04/25/2026 03:37:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:28:24; User visible=04/25/2026 03:37:24
+04/25/2026 03:38:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:37:24
+04/25/2026 03:39:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:39:24
+04/25/2026 03:40:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:40:24
+04/25/2026 03:41:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:41:24
+04/25/2026 03:42:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:42:24
+04/25/2026 03:43:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:43:24
+04/25/2026 03:44:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:44:24
+04/25/2026 03:45:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:45:22
+04/25/2026 03:46:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:46:22
+04/25/2026 03:47:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:38:24; User visible=04/25/2026 03:47:22
+04/25/2026 03:48:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:47:22
+04/25/2026 03:49:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:49:22
+04/25/2026 03:50:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:50:22
+04/25/2026 03:51:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:51:22
+04/25/2026 03:52:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:52:22
+04/25/2026 03:53:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:53:22
+04/25/2026 03:54:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:54:22
+04/25/2026 03:55:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:55:22
+04/25/2026 03:56:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:56:22
+04/25/2026 03:57:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:48:22; User visible=04/25/2026 03:57:22
+04/25/2026 03:58:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 03:57:22
+04/25/2026 03:59:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 03:59:22
+04/25/2026 04:00:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:00:24
+04/25/2026 04:01:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:01:24
+04/25/2026 04:02:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:02:24
+04/25/2026 04:03:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:03:24
+04/25/2026 04:04:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:04:24
+04/25/2026 04:05:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:05:24
+04/25/2026 04:06:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:06:24
+04/25/2026 04:07:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 03:58:22; User visible=04/25/2026 04:07:24
+04/25/2026 04:08:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -2mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:07:24
+04/25/2026 04:09:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:09:24
+04/25/2026 04:10:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:10:24
+04/25/2026 04:11:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:11:24
+04/25/2026 04:12:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:12:24
+04/25/2026 04:13:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:13:24
+04/25/2026 04:14:24
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:14:24
+04/25/2026 04:15:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:15:23
+04/25/2026 04:16:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:16:23
+04/25/2026 04:17:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:08:24; User visible=04/25/2026 04:17:23
+04/25/2026 04:18:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:17:23
+04/25/2026 04:19:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:19:23
+04/25/2026 04:20:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -5mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:20:23
+04/25/2026 04:21:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:21:23
+04/25/2026 04:22:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:22:23
+04/25/2026 04:23:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:23:23
+04/25/2026 04:24:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:24:23
+04/25/2026 04:25:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:25:23
+04/25/2026 04:26:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:26:23
+04/25/2026 04:27:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:18:23; User visible=04/25/2026 04:27:23
+04/25/2026 04:28:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:27:23
+04/25/2026 04:29:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:29:23
+04/25/2026 04:30:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:30:23
+04/25/2026 04:31:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:31:23
+04/25/2026 04:32:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:32:23
+04/25/2026 04:33:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:33:23
+04/25/2026 04:34:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:34:23
+04/25/2026 04:35:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:35:23
+04/25/2026 04:36:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:36:23
+04/25/2026 04:37:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:28:23; User visible=04/25/2026 04:37:23
+04/25/2026 04:38:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:37:23
+04/25/2026 04:39:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:39:23
+04/25/2026 04:40:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:40:23
+04/25/2026 04:41:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:41:23
+04/25/2026 04:42:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:42:23
+04/25/2026 04:43:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:43:23
+04/25/2026 04:44:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:44:23
+04/25/2026 04:45:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:45:23
+04/25/2026 04:46:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:46:23
+04/25/2026 04:47:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:38:23; User visible=04/25/2026 04:47:23
+04/25/2026 04:48:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:47:23
+04/25/2026 04:49:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:49:23
+04/25/2026 04:50:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:50:23
+04/25/2026 04:51:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:51:23
+04/25/2026 04:52:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:52:23
+04/25/2026 04:53:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:53:23
+04/25/2026 04:54:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:54:23
+04/25/2026 04:55:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:55:23
+04/25/2026 04:56:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:56:23
+04/25/2026 04:57:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:48:23; User visible=04/25/2026 04:57:23
+04/25/2026 04:58:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 04:57:23
+04/25/2026 04:59:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 04:59:23
+04/25/2026 05:00:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:00:23
+04/25/2026 05:01:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:01:23
+04/25/2026 05:02:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:02:23
+04/25/2026 05:03:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:03:23
+04/25/2026 05:04:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:04:23
+04/25/2026 05:05:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:05:23
+04/25/2026 05:06:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:06:23
+04/25/2026 05:07:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 04:58:23; User visible=04/25/2026 05:07:23
+04/25/2026 05:08:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:07:23
+04/25/2026 05:09:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:09:23
+04/25/2026 05:10:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:10:23
+04/25/2026 05:11:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:11:23
+04/25/2026 05:12:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:12:23
+04/25/2026 05:13:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:13:23
+04/25/2026 05:14:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:14:23
+04/25/2026 05:15:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:15:23
+04/25/2026 05:16:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:16:23
+04/25/2026 05:17:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:08:23; User visible=04/25/2026 05:17:23
+04/25/2026 05:18:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:17:23
+04/25/2026 05:19:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:19:23
+04/25/2026 05:20:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:20:23
+04/25/2026 05:21:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:21:23
+04/25/2026 05:22:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:22:23
+04/25/2026 05:23:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:23:23
+04/25/2026 05:24:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:24:23
+04/25/2026 05:25:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:25:23
+04/25/2026 05:26:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:26:23
+04/25/2026 05:27:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:18:23; User visible=04/25/2026 05:27:23
+04/25/2026 05:28:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:27:23
+04/25/2026 05:29:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:29:23
+04/25/2026 05:30:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:30:23
+04/25/2026 05:31:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:31:23
+04/25/2026 05:32:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:32:23
+04/25/2026 05:33:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:33:23
+04/25/2026 05:34:23
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:34:23
+04/25/2026 05:35:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:35:22
+04/25/2026 05:36:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:36:22
+04/25/2026 05:37:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:28:23; User visible=04/25/2026 05:37:22
+04/25/2026 05:38:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:37:22
+04/25/2026 05:39:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:39:22
+04/25/2026 05:40:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:40:22
+04/25/2026 05:41:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:41:22
+04/25/2026 05:42:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:42:22
+04/25/2026 05:43:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:43:22
+04/25/2026 05:44:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:44:22
+04/25/2026 05:45:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:45:22
+04/25/2026 05:46:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:46:22
+04/25/2026 05:47:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:38:22; User visible=04/25/2026 05:47:22
+04/25/2026 05:48:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:47:22
+04/25/2026 05:49:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:49:22
+04/25/2026 05:50:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:50:22
+04/25/2026 05:51:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:51:22
+04/25/2026 05:52:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:52:22
+04/25/2026 05:53:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:53:22
+04/25/2026 05:54:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:54:22
+04/25/2026 05:55:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:55:22
+04/25/2026 05:56:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:56:22
+04/25/2026 05:57:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:48:22; User visible=04/25/2026 05:57:22
+04/25/2026 05:58:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 05:57:22
+04/25/2026 05:59:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 05:59:22
+04/25/2026 06:00:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:00:22
+04/25/2026 06:01:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:01:22
+04/25/2026 06:02:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:02:22
+04/25/2026 06:03:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:03:22
+04/25/2026 06:04:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:04:22
+04/25/2026 06:05:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:05:22
+04/25/2026 06:06:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:06:22
+04/25/2026 06:07:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 05:58:22; User visible=04/25/2026 06:07:22
+04/25/2026 06:08:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:07:22
+04/25/2026 06:09:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:09:22
+04/25/2026 06:10:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:10:22
+04/25/2026 06:11:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:11:22
+04/25/2026 06:12:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:12:22
+04/25/2026 06:13:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:13:22
+04/25/2026 06:14:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:14:22
+04/25/2026 06:15:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:15:22
+04/25/2026 06:16:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:16:22
+04/25/2026 06:17:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:08:22; User visible=04/25/2026 06:17:22
+04/25/2026 06:18:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:17:22
+04/25/2026 06:19:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:19:22
+04/25/2026 06:20:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:20:22
+04/25/2026 06:21:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:21:22
+04/25/2026 06:22:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:22:22
+04/25/2026 06:23:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:23:22
+04/25/2026 06:24:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:24:22
+04/25/2026 06:25:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:25:22
+04/25/2026 06:26:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:26:22
+04/25/2026 06:27:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; 0mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:18:22; User visible=04/25/2026 06:27:22
+04/25/2026 06:28:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -4mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:28:22; User visible=04/25/2026 06:27:22
+04/25/2026 06:29:22
+ AC; Not Charging; 100%; Cap=7467: FCC=7467; Design=8790; Time=1092:15; -3mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:28:22; User visible=04/25/2026 06:29:22
+04/25/2026 06:30:22
+ AC; Not Charging; 99%; Cap=7464: FCC=7473; Design=8790; Time=1092:15; -4mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:28:22; User visible=04/25/2026 06:30:22
+04/25/2026 06:31:22
+ AC; Not Charging; 99%; Cap=7464: FCC=7474; Design=8790; Time=1092:15; -31mA; Cycles=161/1000; Location=0; 
+ Polled boot=04/21/2026 12:32:22; Full=04/25/2026 06:28:22; User visible=04/25/2026 06:31:22
